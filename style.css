@@ -1,0 +1,36 @@
+.flexbox {
+  height: 200px;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.vaikas {
+  background-color: aquamarine;
+  display: inline-block;
+}
+
+.flexbox div {
+    width: 50px;
+    height: 50px;
+    border-radius: 3pt;
+}
+
+.flexbox :nth-child(1) {
+    background-color: orange;
+    align-self: center;
+}
+
+.flexbox :nth-child(2) {
+    background-color: orangered;
+    flex-grow: 3;
+    order: 3;
+}
+
+.flexbox :nth-child(3) {
+    background-color: olivedrab;
+}
+
